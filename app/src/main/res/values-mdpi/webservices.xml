@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="api_url1">http://i.vinove.com/shazially/frontend/web/index.php/api/</string>
+    <string name="api_url">http://i.vinove.com/shazially_v1.2/frontend/web/index.php/api/</string>
+    <string name="api_url_update">http://10.0.2.14/projects/frameworks/yii/shazially/frontend/web/index.php/api/</string>
+
+    <string name="api1">http://i.vinove.com/shazially_v1.2/frontend/web/index.php/api/</string>
+
+
+
+</resources>

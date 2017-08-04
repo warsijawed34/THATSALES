@@ -1,0 +1,84 @@
+<resources>
+  <!-- Default screen margins, per the Android Design guidelines. -->
+  <dimen name="activity_horizontal_margin">16dp</dimen>
+
+  //Text size
+  <dimen name="small_half_text_size">10sp</dimen>
+  <dimen name="half_text_size">14sp</dimen>
+  <dimen name="half_text_size_plus">14sp</dimen>
+  <dimen name="large_text_size">16sp</dimen>
+  <dimen name="ex1_large_text_size">20sp</dimen>
+  <dimen name="ex_large_text_size">23sp</dimen>
+  <dimen name="extra_large_text_size">25sp</dimen>
+  <dimen name="more_large_text_size">30sp</dimen>
+
+  //changes
+  <dimen name="normal_text_size">14sp</dimen>
+  <dimen name="small_text_size">10sp</dimen>
+  <dimen name="midium_text_size">15sp</dimen>
+  <dimen name="large_text_size1">18sp</dimen>
+  <dimen name="ex_large_text_size1">23sp</dimen>
+  <dimen name="extra_large_text_size1">25sp</dimen>
+  <dimen name="more_large_text_size1">30sp</dimen>
+
+  //Margin
+  <dimen name="small_half_margin">3dp</dimen>
+  <dimen name="half_margin">5dp</dimen>
+  <dimen name="half_margin_plus">7dp</dimen>
+  <dimen name="Default_margin_half">5dp</dimen>
+  <dimen name="Default_margin">10dp</dimen>
+  <dimen name="Default_margin_plus">12dp</dimen>
+  <dimen name="Default_margin_double">16dp</dimen>
+  <dimen name="Default_margin_double_30">30dp</dimen>
+
+  // Top margin
+  <dimen name="Default_top_margin_half">5dp</dimen>
+  <dimen name="Default_top_margin_top">10dp</dimen>
+  <dimen name="Default_top_margin_plus">15dp</dimen>
+  <dimen name="Default_top_margin_double">20dp</dimen>
+
+  //Padding
+  <dimen name="Default_padding_half">5dp</dimen>
+  <dimen name="Default_padding">10dp</dimen>
+  <dimen name="Default_padding_plus">15dp</dimen>
+  <dimen name="Default_padding_double">20dp</dimen>
+
+  //Custum changes
+  <dimen name="view_layout_height">2dp</dimen>
+  <dimen name="toolbar_layout_height">45dp</dimen>
+
+  //splash Screen
+  <dimen name="layout_marginTop_splash">100dp</dimen>
+  <dimen name="layout_marginTop_splashscreen">130dp</dimen>
+
+  //rating bar
+  <dimen name="raiitng_layout_height">62dp</dimen>
+  <dimen name="raiitng_layout_marginTop">45dp</dimen>
+
+  //myfavorites and interest
+  <dimen name="ll_padding">8dp</dimen>
+  <dimen name="et_leftmargin">8dp</dimen>
+  <dimen name="et_rightmargin">8dp</dimen>
+  <dimen name="tv_username_textsize">27sp</dimen>
+  <dimen name="view_height">2dp</dimen>
+  <dimen name="view_fav">2dp</dimen>
+  <dimen name="lv_padding">20dp</dimen>
+  <dimen name="lv_dividerheight">5dp</dimen>
+  <dimen name="iv_heartpadding">12dp</dimen>
+  <dimen name="my_profile_margin">25dp</dimen>
+
+  <dimen name="requestForSales_marginTop">28dp</dimen>
+  <dimen name="requestForSales_Box">140dp</dimen>
+  <dimen name="fav_user_name_new">27sp</dimen>
+  <dimen name="fav_row_width">125dp</dimen>
+  <dimen name="fav_row_height">85dp</dimen>
+  <dimen name="rating_margin_top">100dp</dimen>
+
+  <!--vineet-->
+
+  <dimen name="text_size_login">10dp</dimen>
+  <dimen name="exx_large_text_size">21dp</dimen>
+
+
+
+</resources>

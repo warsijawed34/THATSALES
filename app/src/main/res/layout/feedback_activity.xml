@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white1">
+    <include
+        android:id="@+id/title_toolbar"
+        layout="@layout/header"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/title_toolbar">
+
+        <TextView
+            android:id="@+id/tv_reasion_to_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/Default_margin_double"
+            android:layout_marginRight="@dimen/Default_margin_double"
+            android:layout_marginTop="50dp"
+            android:text="@string/subject"
+            android:textColor="@color/rating_text_color2"
+            android:textSize="@dimen/half_text_size" />
+
+        <EditText
+            android:id="@+id/ed_reasion_to_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/tv_reasion_to_contact"
+            android:layout_marginLeft="@dimen/Default_margin_double"
+            android:layout_marginRight="@dimen/Default_margin_double"
+            android:layout_marginTop="@dimen/half_margin_plus"
+            android:background="@drawable/customborder"
+            android:imeOptions="actionNext"
+            android:padding="@dimen/Default_margin"
+            android:inputType="textCapWords"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ed_reasion_to_contact"
+            android:layout_marginLeft="@dimen/Default_margin_double"
+            android:layout_marginRight="@dimen/Default_margin_double"
+            android:layout_marginTop="@dimen/Default_margin"
+            android:text="@string/message"
+            android:textColor="@color/rating_text_color2"
+            android:textSize="@dimen/half_text_size" />
+
+        <EditText
+            android:id="@+id/ed_description"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/feedback_layout_height"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/tv_description"
+            android:layout_marginLeft="@dimen/Default_margin_double"
+            android:layout_marginRight="@dimen/Default_margin_double"
+            android:layout_marginTop="@dimen/half_margin_plus"
+            android:gravity="top"
+            android:background="@drawable/customborder"
+            android:padding="@dimen/Default_margin"
+            android:inputType="textMultiLine"
+            android:imeOptions="actionDone" />
+
+        <TextView
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ed_description"
+            android:layout_marginLeft="@dimen/Default_margin_double"
+            android:layout_marginRight="@dimen/Default_margin_double"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_button"
+            android:gravity="center"
+            android:padding="@dimen/text_size_login"
+            android:text="@string/submit"
+            android:textColor="@color/white1"
+            android:textSize="@dimen/large_text_size" />
+
+    </RelativeLayout>
+</RelativeLayout>

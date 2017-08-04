@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white1"
+    android:weightSum="5.5"
+    android:orientation="vertical">
+
+
+    <include
+        android:id="@+id/inc_Interest"
+        layout="@layout/header"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:background="@color/view_color"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <EditText
+            android:id="@+id/ed_interest_searchstore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/search_ed_corner"
+            android:drawableRight="@drawable/search"
+            android:hint="@string/search_small"
+            android:inputType="text"
+            android:imeOptions="actionDone"
+            android:textSize="@dimen/large_text_size"
+            android:cursorVisible="false"
+            android:padding="6dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.8"
+        android:background="@color/white1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+      <com.thatsales.ImageLoding.ImageViewRounded
+            android:id="@+id/iv_interest_profile"
+            android:layout_width="@dimen/imageViewRounded"
+            android:layout_height="@dimen/imageViewRounded"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal"
+          android:src="@drawable/user_2"/>
+
+        <TextView
+            android:id="@+id/tv_interest_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:singleLine="true"
+            android:text="@string/john_mitchel"
+            android:textSize="@dimen/ex1_large_text_size" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_fav"
+        android:background="@color/view_color"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.2"
+        android:background="@color/white1"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/lv_interest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/white1"
+            android:dividerHeight="@dimen/lv_dividerheight"
+            android:padding="@dimen/lv_padding"
+            tools:listitem="@layout/row_interests" />
+    </LinearLayout>
+
+</LinearLayout>

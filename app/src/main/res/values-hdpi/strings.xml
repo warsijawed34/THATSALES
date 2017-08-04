@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">That Sales App</string>
+    <string name="action_settings">Settings</string>
+    //signup
+    <string name="profile_name">PROFILE NAME</string>
+    <string name="email_address">EMAIL ADDRESS</string>
+    <string name="email_address_small">Email Address:</string>
+    <string name="password">PASSWORD</string>
+    <string name="password_small">Password</string>
+    <string name="mobile_number">MOBILE NUMBER</string>
+    <string name="mobile_number_small">Mobile Number:</string>
+    <string name="i_agree_with_the_terms_and_conditions">I AGREE WITH THE TERMS &amp; CONDITIONS</string>
+    <string name="sign_up">New User? <u>SIGN UP</u></string>
+    //login
+    <string name="username">USERNAME</string>
+    <!-- <string name="password">PASSWORD</string>-->
+    <string name="forgot_password">FORGOT PASSWORD ?</string>
+    <string name="login">LOGIN</string>
+    <string name="cancel">CANCEL</string>
+    //forgot password
+    <string name="forgot_password_ul"><u>FORGOT PASSWORD?</u></string>
+    <!-- <string name="email_address">EMAIL ADDRESS</string>-->
+    <string name="submit">SUBMIT</string>
+    //request a sale
+    <string name="request_for_sale">Request for Sale</string>
+    <string name="product_name">Product Name:</string>
+    <string name="product_category">Product Category:</string>
+    <string name="product_description">Product Description:</string>
+    <string name="store_name">Store Name:</string>
+    <string name="expected_date">Expected Date:</string>
+    <string name="end_date">End Date:</string>
+    <string name="place_request">PLACE REQUEST</string>
+    //my profile
+    <string name="my_profile">My Profile</string>
+    <string name="profile_name_update">Profile Name:</string>
+    <string name="john_mitchel_crane">Enter Name</string>
+    <!-- <string name="email_address">Email Address:</string>-->
+    <string name="john_mitchelcrane18_gmail.com">Enter your Email Address</string>
+    <!--string name="mobile_number">Mobile Number:</string>-->
+    <string name="mobile_no">Enter Mobile Number</string>
+    <string name="my_favorite_stores">My Favorite Stores</string>
+    <string name="my_interests">My Interests</string>
+    <string name="update_profile">UPDATE PROFILE</string>
+    <string name="feedback">FEEDBACK</string>
+    <string name="app_rating">APP RATING</string>
+    //Update profile
+    <!--   <string name="update_profile">Update Profile</string>-->
+    <string name="tap_to_upload_image">Tap to Upload Image</string>
+    <!--  <string name="profile_name">Profile Name:</string>
+      <string name="john_mitchel_crane">John Mitchel Crane</string>
+      <string name="email_address">Email Address:</string>
+      <string name="john_mitchelcrane18_gmail.com">john_mitchelcrane18@gmail.com</string>
+      <string name="mobile_number">Mobile Number:</string>
+      <string name="mobile_no">+91-9210740008</string>-->
+    <string name="save_changes">SAVE CHANGES</string>
+
+    //rating
+    <string name="rate_this_app">Rate this App</string>
+    <string name="tittle">Tittle</string>
+    <string name="tittle_rating">Tittle:</string>
+    <string name="description">Description</string>
+    <string name="message">Message</string>
+    <string name="description_rating">Description:</string>
+    <string name="rating">Rating</string>
+
+    //Dtailed Screen
+    <string name="get_flat_off">Get Flat 40% Off on Men\'s Graphic Tees</string>
+    <string name="jack_jones_Apparels">Jack and Jones Apparels</string>
+    <string name="rd_floor">3rd Floor,222 crim Lane Dayton</string>
+    <string name="rd_april">3rd April-4th April</string>
+
+
+
+    <string name="sales_description">Sales Description</string>
+    <string name="messsage_sales_description">Curabitur send convaillis odio bibendum enim et nunc vehicula connsequent. Duis vitae nunc dictum, ultrices lorem sodales, tincidunt dolor. Aenean sed augue in velit pulvinar porta id sit amet quam.Nulla vulpulate lectus lacinia, cursus nisi eget.
+    hjsdsgfjgdskjgfdjgfjdksgkjgfjgdsfkjgkjdgsfkjgdjagjgajfgdsjgfkjsagkjgsjkdgfjsgjgfjdsgjgajgkjsgakjgkjgdaskjgjgjsagjkgfjksgjkdgkjsdkjgfkjg</string>
+    <string name="read_more"><u>Read More</u></string>
+    <string name="read_less"><u>Read Less</u></string>
+    <string name="view_sales_route">View Sales Route</string>
+
+    //Feedback_activity
+
+
+
+
+    <string name="feedback_to_us">Feedback to Us</string>
+    <string name="reason_to_contact">Reason to contact</string>
+    <string name="subject">Subject</string>
+    <string name="Description">Description</string>
+
+
+</resources>

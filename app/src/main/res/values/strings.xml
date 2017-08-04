@@ -1,0 +1,223 @@
+<resources>
+    <string name="app_name">That Sales App</string>
+    <string name="action_settings">Settings</string>
+    //jawed
+    //Myfavorites text
+    <string name="puma_sales">Puma Sales</string>
+    <string name="off_casual_shoes">40% of on casual shoes</string>
+    <string name="my_fav_sale">My Favourite Sales</string>
+    <string name="my_fav_store"> My Favourite Stores</string>
+    <string name="search_store">Search store</string>
+    <string name="john_mitchel">John Mitchel Crane</string>
+    <string name="internetConnection">Please connect with internet</string>
+    <string name="noInternet">No Internet Connection</string>
+    <string name="item_category">Item Category or Store</string>
+    <string name="shopping_center">Shopping Center</string>
+
+    //MyInterest text
+    <string name="my_interest">My Interests</string>
+    <string name="interest_product_name">Addidas Spring Blade</string>
+    //Home Screen
+    <string name="logi">Login</string>
+    <string name="logout">Logout</string>
+    <string name="getdicount_onproduct_text">Get flat 40% off on mens casual shoes</string>
+    <string name="pumasale_pvt_limited">Puma Sales Pvt. Ltd.</string>
+    <string name="detailed_info">Detailed Info</string>
+    <string name="bookmark_sale">Add to favourites</string>
+    <string name="home">Home</string>
+    <string name="favorites">Favourite</string>
+    <string name="popular">Popular</string>
+    <string name="map">Map</string>
+    <string name="closest">Closest</string>
+    // map screen
+    <string name="salenear_you">Sale Near You</string>
+    <string name="title_activity_maps">Map</string>
+
+
+    <string-array name="tabs_icon_array">
+        <item>@drawable/fav_off</item>
+        <item>@drawable/popular</item>
+        <item>@drawable/map</item>
+        <item>@drawable/closest</item>
+    </string-array>
+    <string-array name="tabs_title_array">
+        <item>Favourites</item>
+        <item>Popular</item>
+        <item>Map</item>
+        <item>Closest</item>
+    </string-array>
+
+
+    <string name="msg_username">Please enter your Name</string>
+    <string name="msg_email">Please enter your Email</string>
+    <string name="msg_profilename">Please provide your Profile name</string>
+    <string name="msg_password">Please provide your password</string>
+    <string name="msg_length_password">Password should be atleast 6 character long</string>
+    <string name="msg_mobile">Please enter a valid Mobile Number</string>
+    <string name="msg_number">Please provide your number</string>
+    <string name="msg_emailId">Please enter Email Address</string>
+    <string name="msg_emailaddress">Please enter email id</string>
+    <string name="msg_emailnotregistered">This Email ID is not registered</string>
+    <string name="msg_new_password">Please provide new password</string>
+    <string name="msg_new_repassword">Please provide new Re-password</string>
+    <string name="msg_password_not_equal">Passwords are not matched</string>
+    <string name="msg_wrong_username">UserName is not correct</string>
+    <string name="msg_wrong_password">Password is not correct</string>
+    <string name="msg_invalid_email">Please enter a valid email address</string>
+    <string name="msg_invalid_number">Invalid number</string>
+    <string name="msg_product_name">Please provide product name</string>
+    <string name="msg_product_cat">Please provide product category</string>
+    <string name="msg_product_desc">Please provide product description</string>
+    <string name="msg_storename">Please provide store name</string>
+    <string name="msg_expected_date">Please provide expected date</string>
+    <string name="msg_tittle">Please provide tittle</string>
+    <string name="subject">Subject</string>
+    <string name="msg_description">Please provide description</string>
+    <string name="no_network_connection">No Network Connection</string>
+    <string name="check_connection">Please check your internet connection.</string>
+    <string name="dashboard">DASHBOARD</string>
+    <string name="login">LOGIN</string>
+    <string name="login_small">Login</string>
+    <string name="sale_manager">SALES MANAGER</string>
+    <string name="sale_executive">SALES EXECUTIVE</string>
+    <string name="username">Username</string>
+    <string name="email_address">EMAIL ADDRESS</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forget_password"><u>Forgot Password?</u></string>
+    <string name="forget_pass">FORGOT PASSWORD</string>
+    <string name="forget_hint">Enter Your Email ID</string>
+    <string name="forget_submit">SUBMIT</string>
+    <string name="link_to_reset">Link to reset the Password will be sent to this email</string>
+    <string name="date_from">Date From</string>
+    <string name="date_to">Date To</string>
+    <string name="to">To</string>
+    <string name="date_format">DD/MM/YYYY</string>
+    <string name="date_of_contact">Date of Contact</string>
+    <string name="followup_date">Plan/Followup Date</string>
+    <string name="followup_action">Followup Action</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="salesPersonName">Name of Sales Person</string>
+    <string name="nameof_Customer">Name of Customer</string>
+    <string name="callType">Call Type</string>
+    <string name="callDescription">Call Description</string>
+    <string name="callMode">Call Mode</string>
+    <string name="callObjective">Call Objective</string>
+    <string name="call_entryDate">Call Entry Date</string>
+    <string name="call_planedDate">Call Planned Date</string>
+    <string name="followup_by">Followup by</string>
+    <string name="close_callEntry">Close call entry</string>
+    <string name="managers_comment">"Manager&apos;s Comment"</string>
+    <string name="insideSales">Inside Sales/CS Followup</string>
+    <string name="update">UPDATE</string>
+    <string name="cancel">CANCEL</string>
+    <string name="back">BACK</string>
+    <string name="save">SAVE</string>
+    <string name="search">SEARCH</string>
+    <string name="search_small">Search</string>
+    <string name="enter_username">Enter Your Username</string>
+    <string name="enter_old_password">Enter Your Old Password</string>
+    <string name="enter_new_password">Enter Your New Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="re_enter_password">Re-enter New Password</string>
+    <string name="select_customer_of">Select Customers of</string>
+    <string name="contact_no">Contact no.</string>
+    <string name="contact_address">Contact Address</string>
+    <string name="customerName">Customer Name</string>
+    <string name="customerID">Customer ID</string>
+    <string name="customerContactDetail">Customer Contact Details</string>
+    <string name="customerMobileNumber">Customer Mobile Number</string>
+    <string name="customerEmailId">Customer Email Id</string>
+    <string name="business">Business</string>
+    <string name="segmentName">Segment Name</string>
+    <string name="origin">Origin</string>
+    <string name="shipPM">Ship PM</string>
+    <string name="volPm">Vol PM</string>
+    <string name="current_potential">Current/Potential</string>
+    <string name="status">Status</string>
+    <string name="period">Period</string>
+    <string name="dest">Dest</string>
+    <string name="tos">TOS</string>
+    <string name="unitCode">Unit Code</string>
+    <string name="closureDate">Closure date</string>
+    <string name="reason">Reason</string>
+    <string name="addNewBusiness">Add New Business</string>
+    <string name="viewSalesPerson">VIEW SALES PERSON</string>
+    <string name="viewPreCallEntry">VIEW PRE CALL ENTRY</string>
+    <string name="newCallEntry">NEW CALL ENTRY</string>
+    <string name="viewCustomer">VIEW CUSTOMER</string>
+    <string name="loading">Loading...</string>
+    <string name="callLogDetail">CALL LOG DETAIL</string>
+    <string name="salesPerson">Sales Person Name</string>
+    <string name="selectSalesMan">Select Sales Man</string>
+    <string name="selectSalesPerson">Select Sales Person</string>
+    <string name="city">City</string>
+    <string name="country_code">Country Code</string>
+    <string name="customerType">Customer Type</string>
+    <string name="optional">(Optional)</string>
+    <string name="no_data_text">Sorry !!! No matching results</string>
+    <string name="no_more_data_text">Sorry !!! No more results</string>
+    <string name="empty_dates">Please select both the dates</string>
+    <string name="empty_select_customerOf">Please fill Select Customers of</string>
+    <string name="empty_form">All fields are mandatory</string>
+    <string name="empty_customerId">Please fill Customer ID</string>
+    <string name="empty_salesmanName">Please fill Name of Sales Person</string>
+    <string name="empty_customerName">Please fill Name of Customer</string>
+    <string name="empty_customerEmailId">Please fill Customer Email Id</string>
+    <string name="empty_callType">Please fill Call Type</string>
+    <string name="empty_callDescription">Please fill Call Description</string>
+    <string name="empty_callMode">Please fill Call Mode</string>
+    <string name="empty_callObjective">Please fill Call Objective</string>
+    <string name="empty_callEntryDate">Please fill Call Entry Date</string>
+    <string name="empty_followupDate">Please fill Plan/Followup Date</string>
+    <string name="empty_followupAction">Please fill Followup Action</string>
+    <string name="empty_callPlanDate">Please fill Call Planned Date</string>
+    <string name="empty_followupBy">Please fill Followup By</string>
+    <string name="empty_closeCallEntry">Please fill Close Call Entry</string>
+    <string name="empty_insideSales">Please fill Inside Sales/CS Followup</string>
+    <string name="empty_contactAddress">Please fill Contact Address</string>
+    <string name="empty_customerContactDetails">Please fill Customer Contact Details</string>
+    <string name="empty_customerMobileNumber">Please fill Customer Mobile Number</string>
+    <string name="empty_city">Please fill City</string>
+    <string name="empty_countryCode">Please fill Country Code</string>
+    <string name="empty_customerType">Please fill Customer Type</string>
+    <string name="empty_segment">Please fill Segment Name</string>
+    <string name="empty_business">Please fill Business</string>
+    <string name="empty_unitCode">Please fill Unit Code</string>
+    <string name="empty_period">Please fill Period</string>
+    <string name="empty_origin">Please fill Origin</string>
+    <string name="empty_destination">Please fill Destination</string>
+    <string name="empty_shipPM">Please fill Ship PM</string>
+    <string name="empty_tos">Please fill TOS</string>
+    <string name="empty_volPM">Please fill Vol PM</string>
+    <string name="empty_currentPotential">Please fill Current/Potential</string>
+    <string name="empty_closureDate">Please fill Closure Date</string>
+    <string name="empty_status">Please fill Status</string>
+    <string name="empty_reason">Please fill Reason</string>
+    <string name="title_activity_maps_fragment">Map</string>
+    <string name="send_to">Send to</string>
+    <string name="choose_image">Select profile photo</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="feedback_to_us">Feedback to us</string>
+    <string name="feedback_small">Feedback</string>
+    <string name="detailed_sale_screen">Detailed Sale Screen</string>
+    <string name="detailed_sale_screen1"> Sale Details</string>
+    Sale Details
+    <string name="signup">SIGN UP</string>
+    <string name="updateprofile">Update Profile</string>
+    <string name="checkbox_msg_validation">Please agree with terms &amp; conditions</string>
+    <string name="back_msg">Please click BACK again to exit</string>
+    <string name="bookmarked">Bookmarked</string>
+    <string name="loginfirst">Please Log In first</string>
+    <string name="enableGps">Your GPS seems to be disabled, do you want to enable it?</string>
+    <string name="pressBack">"Please click back again to exit"</string>
+
+    <string name="project_sender_id">1089933275714</string>
+    <string name="share"> Hello! Checkout this sweet deal I found on That Sales App: </string>
+    <string name="share1">, and then the option to share on social media or via email.</string>
+    <string name="subject_feedback">Please enter the Subject</string>
+    <string name="message_feedback">Please enter your message</string>
+</resources>

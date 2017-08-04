@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white1"
+    android:padding="10dp">
+
+
+    <ImageView
+        android:id="@+id/iv_sale_images"
+        android:layout_width="@dimen/fav_row_width"
+        android:layout_height="@dimen/fav_row_height"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/tv_getdiscount_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/iv_sale_images"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@id/iv_sale_images"
+        android:layout_toRightOf="@id/iv_sale_images"
+        android:lines="2"
+        android:text=""
+        android:textColor="@color/row_fav_product_txtColor" />
+
+
+    <TextView
+        android:id="@+id/tv_cname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_getdiscount_txt"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@id/iv_sale_images"
+        android:layout_toRightOf="@id/iv_sale_images"
+        android:singleLine="true"
+        android:text=""
+        android:textSize="@dimen/small_half_text_size" />
+
+
+    <View
+        android:id="@+id/view_id"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/tv_cname"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@id/iv_sale_images"
+        android:layout_toRightOf="@id/iv_sale_images"
+        android:background="@color/white_spacing_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_sale_images"
+        android:layout_below="@id/view_id"
+        android:layout_toEndOf="@id/iv_sale_images"
+        android:layout_toRightOf="@id/iv_sale_images"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:id="@+id/ll_detailedinfo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/detailed_info"
+                android:textSize="@dimen/small_half_text_size"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/iv_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/info" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/white_spacing_color" />
+
+        <LinearLayout
+            android:id="@+id/ll_bookmark"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_fav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bookmark_sale"
+                android:textColor="@color/row_fav_product_txtColor"
+                android:textSize="@dimen/small_half_text_size"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/iv_isfav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/bookmark" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

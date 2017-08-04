@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="5"
+    android:orientation="vertical">
+
+
+    <include
+        android:id="@+id/inc_favorites"
+        layout="@layout/header"></include>
+
+    <LinearLayout
+        android:id="@+id/linear_search"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:background="@color/view_color"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/ed_searchstore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/et_leftmargin"
+            android:layout_marginRight="@dimen/et_rightmargin"
+            android:background="@drawable/search_ed_corner"
+            android:drawableRight="@drawable/search"
+            android:hint="@string/search_store"
+            android:inputType="text"
+            android:padding="@dimen/et_padding" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.8"
+        android:background="@color/white1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.thatsales.ImageLoding.ImageViewRounded
+            android:id="@+id/iv_fav_profile"
+            android:layout_width="@dimen/imageViewRounded"
+            android:layout_height="@dimen/imageViewRounded"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/user_2"/>
+
+        <TextView
+            android:id="@+id/tv_fav_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:singleLine="true"
+            android:text=""
+            android:textSize="@dimen/ex1_large_text_size" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_fav"
+        android:background="@color/view_color"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.2"
+        android:background="@color/white1"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/lv_favorites"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/white1"
+            android:dividerHeight="@dimen/lv_dividerheight"
+            android:padding="@dimen/lv_padding"
+            tools:listitem="@layout/row_favorite" />
+    </LinearLayout>
+
+</LinearLayout>

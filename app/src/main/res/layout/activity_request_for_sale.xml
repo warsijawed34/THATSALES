@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white1"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/title_toolbar"
+        layout="@layout/header"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/Default_margin_double">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="@dimen/Default_margin">
+            <TextView
+                android:id="@+id/tv_product_name"
+                style="@style/custom_text_view_request"
+                android:text="@string/product_name" />
+
+            <EditText
+                android:id="@+id/et_product_name"
+                style="@style/custom_edit_text_request"
+                android:inputType="text"
+                android:imeOptions="actionNext" />
+            <TextView
+                android:id="@+id/tv_product_category"
+                style="@style/custom_text_view_request"
+                android:text="@string/product_category" />
+
+            <EditText
+                android:id="@+id/ed_product_category"
+                style="@style/custom_edit_text_request"
+                android:inputType="text"
+                android:imeOptions="actionNext"/>
+            <TextView
+                android:id="@+id/tv_product_description"
+                style="@style/custom_text_view_request"
+                android:text="@string/product_description" />
+            <EditText
+                android:id="@+id/ed_product_description"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                style="@style/custom_edit_text_request"
+                android:background="@drawable/customborder"
+                android:inputType="textMultiLine"
+                android:imeOptions="actionNext">
+            </EditText>
+
+            <TextView
+                android:id="@+id/tv_store_name"
+                style="@style/custom_text_view_request"
+                android:text="@string/store_name" />
+            <EditText
+                android:id="@+id/ed_store_name"
+                style="@style/custom_edit_text_request"
+                android:inputType="text"
+                android:imeOptions="actionDone" />
+            <TextView
+                android:id="@+id/tv_start_date"
+                style="@style/custom_text_view_request"
+                android:text="@string/expected_date" />
+
+            <EditText
+                android:id="@+id/ed_expected_date"
+                style="@style/custom_edit_text_request"
+                android:drawableRight="@drawable/calender"
+                android:focusable="false"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/btn_place_request"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/rounded_button"
+                android:gravity="center"
+                android:padding="@dimen/text_size_login"
+                android:text="@string/place_request"
+                android:textColor="@color/white1"
+                android:textSize="@dimen/large_text_size"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white1"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/title_toolbar"
+        layout="@layout/header" />
+
+    <ImageView
+        android:id="@+id/iv_splash_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/splash_logo" />
+
+    <LinearLayout
+        android:id="@+id/rl_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_splash_logo"
+        android:layout_marginLeft="@dimen/Default_margin_double"
+        android:layout_marginRight="@dimen/Default_margin_double"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/customborder"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_signUp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/rl_main">
+            <ImageView
+                android:id="@+id/iv_profileName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/username" />
+
+            <View
+                android:id="@+id/view_line"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/small_half_margin"
+                android:layout_marginTop="@dimen/small_half_margin"
+                android:layout_toRightOf="@+id/iv_profileName"
+                android:background="@color/vertical_line_color"></View>
+
+            <EditText
+                android:id="@+id/ed_profileName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="@dimen/small_half_margin"
+                android:layout_toRightOf="@+id/view_line"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:hint="@string/profile_name"
+                android:paddingRight="40dp"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/login_textcolor_hint"
+                android:textSize="@dimen/large_text_size"
+                android:inputType="textCapWords"
+                android:imeOptions="actionNext"/>
+
+
+            <ImageButton
+                android:id="@+id/iv_mandatory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/mandatory" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rl_signUp2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/rl_signUp"
+            android:background="@drawable/customborder">
+
+            <ImageView
+                android:id="@+id/iv_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Default_margin"
+                android:background="@drawable/email"
+                />
+
+            <View
+                android:id="@+id/view_line2"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/small_half_margin"
+                android:layout_marginTop="@dimen/small_half_margin"
+                android:layout_toRightOf="@+id/iv_email"
+                android:background="@color/vertical_line_color"></View>
+
+            <EditText
+                android:id="@+id/ed_email_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/small_half_margin"
+                android:layout_toRightOf="@+id/view_line2"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:hint="@string/email_address"
+                android:layout_centerVertical="true"
+                android:paddingRight="40dp"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray_text_color"
+                android:textSize="@dimen/large_text_size"
+                android:inputType="textEmailAddress"
+                android:imeOptions="actionNext"/>
+
+            <ImageView
+                android:id="@+id/iv_mandatory2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mandatory"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/ed_email_address"
+                android:layout_alignEnd="@+id/ed_email_address" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_signUp3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/rl_signUp2">
+
+            <ImageView
+                android:id="@+id/iv_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/password"
+                android:layout_margin="@dimen/Default_margin" />
+
+            <View
+                android:id="@+id/view_line3"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/small_half_margin"
+                android:layout_marginTop="@dimen/small_half_margin"
+                android:layout_toRightOf="@+id/iv_password"
+                android:background="@color/vertical_line_color"></View>
+
+            <EditText
+                android:id="@+id/ed_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/small_half_margin"
+                android:layout_toRightOf="@+id/view_line3"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:paddingRight="40dp"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray_text_color"
+                android:textSize="@dimen/large_text_size"
+                android:imeOptions="actionNext"/>
+
+            <ImageView
+                android:id="@+id/iv_mandatory3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mandatory"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true" />
+
+            <ImageView
+                android:id="@+id/btn_visible_active"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="@dimen/Default_margin"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/visible"
+                android:clickable="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_signUp4"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/rl_signUp2"
+            android:background="@drawable/customborder">
+            <ImageView
+                android:id="@+id/iv_mobile_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Default_margin"
+                android:background="@drawable/mobile"/>
+
+            <View
+                android:id="@+id/view_line4"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/small_half_margin"
+                android:layout_marginTop="@dimen/small_half_margin"
+                android:layout_toRightOf="@+id/iv_mobile_number"
+                android:background="@color/vertical_line_color"></View>
+
+            <EditText
+                android:id="@+id/ed_mobile_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/small_half_margin"
+                android:layout_toRightOf="@+id/view_line4"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:hint="@string/mobile_number"
+                android:paddingRight="40dp"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray_text_color"
+                android:textSize="@dimen/large_text_size"
+                android:inputType="number"
+                android:imeOptions="actionDone"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_checkbox"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/rl_main"
+        android:layout_margin="@dimen/Default_margin_double">
+        <CheckBox
+            android:id="@+id/btn_checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true" />
+        <TextView
+            android:id="@+id/tv_term_condition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray_text_color1"
+            android:textSize="@dimen/half_text_size"
+            android:text="@string/i_agree_with_the_terms_and_conditions" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/btn_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_checkbox"
+        android:layout_marginLeft="@dimen/Default_margin_double"
+        android:layout_marginRight="@dimen/Default_margin_double"
+        android:background="@drawable/rounded_button"
+        android:gravity="center"
+        android:padding="@dimen/Default_padding"
+        android:text="@string/signup"
+        android:textColor="@color/white1"
+        android:textSize="@dimen/large_text_size"/>
+
+</RelativeLayout>

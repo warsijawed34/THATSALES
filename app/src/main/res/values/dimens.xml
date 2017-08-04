@@ -1,0 +1,38 @@
+<resources>
+  <!-- Default screen margins, per the Android Design guidelines. -->
+  <!--<dimen name="activity_horizontal_margin">16dp</dimen>
+  <dimen name="activity_vertical_margin">16dp</dimen>
+  <dimen name="toolbar_height">45dp</dimen>
+  <dimen name="normal_text_size">14sp</dimen>
+  <dimen name="small_text_size">10sp</dimen>
+  <dimen name="midium_text_size">17sp</dimen>
+  <dimen name="large_text_size">20sp</dimen>
+  <dimen name="ex_large_text_size">23sp</dimen>
+  <dimen name="extra_large_text_size">25sp</dimen>
+  <dimen name="more_large_text_size">30sp</dimen>-->
+
+  //myfavorites and interes
+
+  <dimen name="ll_padding">8dp</dimen>
+  <dimen name="et_leftmargin">8dp</dimen>
+  <dimen name="et_rightmargin">8dp</dimen>
+  <dimen name="tv_username_textsize">25sp</dimen>
+  <dimen name="view_height">2dp</dimen>
+  <dimen name="view_fav">2dp</dimen>
+  <dimen name="lv_padding">20dp</dimen>
+  <dimen name="lv_dividerheight">5dp</dimen>
+  <dimen name="iv_heartpadding">12dp</dimen>
+  <dimen name="layout_marginTop_splash">120dp</dimen>
+
+
+  //
+
+  <dimen name="Default_margin_double_25">30dp</dimen>
+  <dimen name="normal_text_size_update_profile">20sp</dimen>
+  <dimen name="imageViewRounded">120dp</dimen>
+  <dimen name="imageViewRounded_100">100dp</dimen>
+
+  <dimen name="rating_margin_top">80dp</dimen>
+  <dimen name="rating_marginBottom">25dp</dimen>
+
+</resources>

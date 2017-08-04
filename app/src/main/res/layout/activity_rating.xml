@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white1">
+    <include
+        android:id="@+id/title_toolbar"
+        layout="@layout/header" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/title_toolbar">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/Default_margin_double"
+            android:layout_marginRight="@dimen/Default_margin_double"
+            android:layout_marginTop="@dimen/layout_marginTop_splash"
+            android:background="@color/rating_profile_background">
+
+            <TextView
+                android:id="@+id/tv_profile_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="@dimen/rating_margin_top"
+                android:padding="@dimen/Default_padding"
+                android:text="@string/john_mitchel_crane"
+                android:textColor="@color/rating_text_color"
+                android:textSize="@dimen/ex_large_text_size" />
+
+            <TextView
+                android:id="@+id/tv_rate_this_app"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rate this App"
+                android:textColor="@color/rating_text_color1"
+                android:textSize="@dimen/large_text_size"
+                android:layout_marginBottom="@dimen/rating_marginBottom"
+                android:layout_alignBottom="@+id/tv_profile_name"
+                android:layout_centerHorizontal="true" />
+
+
+        </RelativeLayout>
+        <com.thatsales.ImageLoding.ImageViewRounded
+            android:id="@+id/im_profile_img"
+            android:layout_width="@dimen/imageViewRounded_100"
+            android:layout_height="@dimen/imageViewRounded_100"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/raiitng_layout_marginTop"
+            android:src="@drawable/user_1" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            style="@style/ratingBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativeLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="@dimen/Default_margin_plus"
+            android:numStars="5"
+            android:stepSize="1" />
+        <TextView
+            android:id="@+id/textRating"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ratingBar"
+            />
+        <TextView
+            android:id="@+id/tv_tittle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textRating"
+            android:layout_marginLeft="@dimen/Default_margin_double"
+            android:layout_marginRight="@dimen/Default_margin_double"
+            android:text="@string/tittle_rating"
+            android:textColor="@color/rating_text_color2"
+            android:textSize="@dimen/large_text_size" />
+        <EditText
+            android:id="@+id/ed_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/tv_tittle"
+            android:layout_marginLeft="@dimen/Default_margin_double"
+            android:layout_marginRight="@dimen/Default_margin_double"
+            android:layout_marginTop="@dimen/half_margin_plus"
+            android:inputType="textCapWords"
+            android:imeOptions="actionNext"
+            android:background="@drawable/customborder"
+            android:padding="@dimen/Default_margin"
+            android:singleLine="true" />
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ed_title"
+            android:layout_marginLeft="@dimen/Default_margin_double"
+            android:layout_marginRight="@dimen/Default_margin_double"
+            android:inputType="textCapSentences"
+            android:layout_marginTop="10dp"
+            android:text="@string/description_rating"
+            android:textColor="@color/rating_text_color2"
+            android:textSize="@dimen/large_text_size" />
+        <EditText
+            android:id="@+id/ed_description"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/raiitng_layout_height"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/tv_description"
+            android:gravity="left|top"
+            android:layout_marginLeft="@dimen/Default_margin_double"
+            android:layout_marginRight="@dimen/Default_margin_double"
+            android:layout_marginTop="@dimen/half_margin_plus"
+            android:background="@drawable/customborder"
+            android:padding="@dimen/Default_margin"
+            android:inputType="textMultiLine"
+            android:imeOptions="actionDone"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ed_description"
+            android:layout_marginLeft="@dimen/Default_margin_double"
+            android:layout_marginRight="@dimen/Default_margin_double"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_button"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/submit"
+            android:textColor="@color/white1"
+            android:textSize="@dimen/large_text_size" />
+
+    </RelativeLayout>
+</RelativeLayout>

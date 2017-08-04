@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/ll_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/view_color"
+        android:padding="8dp"
+        android:weightSum="2"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/ed_itemcat"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/search_ed_corner"
+            android:drawableRight="@drawable/search"
+            android:layout_marginRight="10dp"
+            android:hint="@string/item_category"
+            android:imeOptions="actionSearch"
+            android:cursorVisible="false"
+            android:inputType="text"
+            android:padding="@dimen/et_padding"
+            android:textSize="@dimen/small_half_text_size"
+            android:layout_weight="1.2"/>
+
+
+        <EditText
+            android:id="@+id/ed_shoppingcenter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/search_ed_corner"
+            android:drawableRight="@drawable/drop_down"
+            android:clickable="false"
+            android:focusable="false"
+            android:hint="@string/shopping_center"
+            android:inputType="text"
+            android:padding="@dimen/et_padding"
+            android:textSize="@dimen/small_half_text_size"
+            android:textCursorDrawable="@drawable/cursor_color_gray"
+            android:layout_weight="0.8"/>
+        <requestFocus />
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv_row_home"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        tools:listitem="@layout/row_home"/>
+</LinearLayout>

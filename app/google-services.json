@@ -1,0 +1,36 @@
+{
+  "project_info": {
+    "project_number": "1089933275714",
+    "project_id": "firebase-thatsales"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089933275714:android:c6ff560d8437172a",
+        "android_client_info": {
+          "package_name": "com.thatsales"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjsEvxupio5u5Zt4brYLAFeh10wKfjOd8"
+
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

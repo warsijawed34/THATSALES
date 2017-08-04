@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white1"
+    android:orientation="vertical">
+    <include
+        android:id="@+id/title_toolbar"
+        layout="@layout/header"></include>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title_toolbar">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/title_toolbar">
+            <LinearLayout
+                android:id="@+id/ll_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/profile_background"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.thatsales.ImageLoding.ImageViewRounded
+                    android:id="@+id/iv_profile"
+                    android:layout_width="@dimen/imageViewRounded"
+                    android:layout_height="@dimen/imageViewRounded"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="18dp"
+                    android:src="@drawable/user_1"/>
+                <TextView
+                    android:id="@+id/tv_user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_profile"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/john_mitchel_crane"
+                    android:textColor="@color/white1"
+                    android:singleLine="true"
+                    android:textSize="@dimen/ex1_large_text_size" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_profile2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll_profile"
+                android:background="@color/white1"
+                android:orientation="vertical"
+                android:weightSum="2">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.4"
+                        android:text="@string/email_address_small"
+                        android:padding="@dimen/Default_padding"
+                        android:textColor="@color/myprofile_text_color2"
+                        android:textSize="@dimen/half_text_size" />
+
+                    <TextView
+                        android:id="@+id/tv_emailid"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.7"
+                        android:gravity="right"
+                        android:padding="@dimen/Default_padding"
+                        android:singleLine="true"
+                        android:text="@string/john_mitchelcrane18_gmail.com"
+                        android:textColor="@color/myprofile_text_color2"
+                        android:textSize="@dimen/half_text_size" />
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/view_color"></View>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.4"
+                        android:text="@string/mobile_number_small"
+                        android:padding="@dimen/Default_padding"
+                        android:textColor="@color/myprofile_text_color2"
+                        android:textSize="@dimen/half_text_size" />
+                    <TextView
+                        android:id="@+id/tv_number"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.7"
+                        android:gravity="right"
+                        android:padding="@dimen/Default_padding"
+                        android:text="@string/mobile_no"
+                        android:textColor="@color/myprofile_text_color2"
+                        android:textSize="@dimen/half_text_size" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/ll_profile2"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/Default_margin"
+                android:layout_marginLeft="@dimen/my_profile_margin"
+                android:layout_marginRight="@dimen/my_profile_margin">
+
+                <FrameLayout
+                    android:id="@+id/rl_my_profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/rounded_myfav">
+
+                    <ImageView
+                        android:id="@+id/tv_stores"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="left"
+                        android:padding="@dimen/Default_padding"
+                        android:src="@drawable/stores" />
+                    <TextView
+                        android:id="@+id/tv_my_favorite_stoes"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="@dimen/Default_padding"
+                        android:gravity="center"
+                        android:text="@string/my_fav_store"
+                        android:textColor="@color/white1"
+                        android:textSize="@dimen/large_text_size" />
+
+                    <ImageView
+                        android:id="@+id/iv_proceed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right"
+                        android:layout_alignTop="@+id/tv_my_favorite_stoes"
+                        android:padding="@dimen/Default_padding"
+                        android:src="@drawable/proceed" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/rl_profile3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rl_my_profile"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/rounded_myinterst">
+
+                    <ImageView
+                        android:id="@+id/tv_interests"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="left"
+                        android:padding="@dimen/Default_padding"
+                        android:src="@drawable/interests" />
+
+                    <TextView
+                        android:id="@+id/tv_my_interested"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center"
+                        android:padding="@dimen/Default_padding"
+                        android:text="@string/my_interests"
+                        android:textColor="@color/white1"
+                        android:textSize="@dimen/large_text_size" />
+                    <ImageView
+                        android:id="@+id/iv_proceed2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right"
+                        android:gravity="center"
+                        android:layout_alignTop="@+id/tv_my_interested"
+                        android:padding="@dimen/Default_padding"
+                        android:src="@drawable/proceed" />
+                </FrameLayout>
+                <FrameLayout
+                    android:id="@+id/rl_profile4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/Default_margin_double_25"
+                    android:layout_below="@+id/rl_profile3"
+                    android:background="@drawable/rounded_update">
+                    <TextView
+                        android:id="@+id/tv_update_profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center"
+                        android:padding="@dimen/Default_padding"
+                        android:text="@string/update_profile"
+                        android:textColor="@color/white1"
+                        android:textSize="@dimen/large_text_size" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/rl_profile5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/Default_margin"
+                    android:background="@drawable/rounded_feedback">
+                    <TextView
+                        android:id="@+id/tv_feedback"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="@dimen/Default_padding"
+                        android:gravity="center"
+                        android:text="@string/feedback"
+                        android:textColor="@color/profile_gray_text_color"
+                        android:textSize="@dimen/large_text_size" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rl_profile5"
+                    android:layout_marginTop="@dimen/Default_margin"
+                    android:layout_marginBottom="@dimen/Default_margin"
+                    android:background="@drawable/rounded_rating">
+                    <TextView
+                        android:id="@+id/tv_app_rating"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="@dimen/Default_padding"
+                        android:gravity="center"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/app_rating"
+                        android:textColor="@color/white1"
+                        android:textSize="@dimen/large_text_size" />
+                </FrameLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
